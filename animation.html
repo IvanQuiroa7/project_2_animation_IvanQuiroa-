@@ -22,7 +22,9 @@
  <circle cx="75" cy="53" r="20" fill="white"/>
 </circle>
 
-  <rect x="80" y="40" width="10" height="10" fill="black"/>
+  <rect x="80" y="40" width="10" height="10" fill="black">
+  <animate attributeName="fill" from="yellow" to="red" dur="3s" begin="click" id="test1" fill="freeze"/>
+  <animate attributeName="fill" from="red" to="black" dur="3s" begin="test1.end" fill="freeze"/>
 </rect>
 
   <rect x="65" y="40" width="10" height="10" fill="black"/>
@@ -53,7 +55,7 @@
     </ellipse>
 <svg width="70" height="130">
 
- <line x1="5" y1="70" x2="250" y2="170" stroke="black" stroke-width="8"/>
+ <line x1="5" y1="70" x2="250" y2="170" stroke="black" stroke-width="8">
  </line>
 
 <text x="25" y="90" font-family="sans-serif" font-size="10" fill="white">GG EZ</text>
