@@ -1,3 +1,9 @@
-body{
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+
+p {
+  color: red;
+  font-family: Ruslan Display
+}
+body {
   background-color:gray
 }
